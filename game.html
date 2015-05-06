@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Random Number Game</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+</head>
+
+<body>
+
+
+	
+		<div id="whole-word">
+		</div>
+		<div id="number-image">
+			<img id="num-img" src=""/>
+		</div>
+		<audio id="num-sound" src=""/></audio>
+
+		<div id="garbled-word">
+		</div>
+		<audio id="missing-letter-sound" src=""/></audio>
+		<audio id="missing-letter" src=""/></audio>
+
+		<div id="char-options">
+			<span class="char-option"></span>
+			<span class="char-option"></span>
+			<span class="char-option"></span>
+			<span class="char-option"></span>
+		</div>
+		<div id="results">
+			<div id="correct">
+				<div id="correct-answer">Correct!</div>
+			</div>
+			<audio id="correct-sound" src=""/></audio>			
+
+			<div id="incorrect">
+				<div id="incorrect-answer">Please try again!</div>
+			</div>
+			<audio id="incorrect-sound" src=""/></audio>
+		</div>
+		<div id="timer"></div>
+
+		<button type="button" id="new-word-btn" class="styled-btn">Click for a new word</button>
+		
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
